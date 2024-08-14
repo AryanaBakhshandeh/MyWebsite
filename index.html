@@ -1,123 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aryana Sasani's Personal Site</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- BOOTSTRAP 5.3.3-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <!-- font awsome  -->
+    <script
+      src="https://kit.fontawesome.com/8d9304f81d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BootstrapDemo</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <!-- JS_BOOTSTRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- favicon -->
+    <link rel="icon" href="faravahar.png" />
+  </head>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- NavBar -->
-  <nav class="navbar bg-dark navbar-expand-lg" data-bs-theme="dark" >
-    <div class="container-fluid "  >
-      <a class="navbar-brand mb-0 h1" href="/index.html">SASANI</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">IranShahr</a>
-          <a class="nav-link disabled" aria-disabled="true">Translated to Pahlavani</a>
-          <a class="nav-link" href="#">Projects</a>
-          <a class="nav-link" href="#">E.E Tutorials</a>
+  <body class="bg-dark">
+    <nav
+      class="navbar bg-dark border-bottom border-body navbar-expand-lg"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid m-0">
+        <a class="navbar-brand" href="#">sasani</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">IranShahr</a>
+            <a class="nav-link" href="#">tutorials</a>
+            <a class="nav-link" href="#">projects</a>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
-</head>
+    </nav>
 
-
-
-
-<body>
-
-  <!-- Sec1 : intro  -->
-  <section style="background-color: #7446c7; color: #fbfafc">
-    <div class="container " style="padding:100px 0;">
-      <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-      <div class="row">
-        <div class="col-md-7 p-5  text-left   ">
-          <img src="./Aryana.jpg" class="rounded img-fluid ">
-        </div>
-        <div class="col-md-5  align-self-center ">
-          <div class="row text-center p-2">
-            <h1 class="fw-bolder m-0 p-0 "> Aryana i Sasani</h1>
-            <h2> Electerical Engineer</h2>
+    <section id="heading">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-5">
+            <img
+              src="Aryana.jpg"
+              alt="image.jpg"
+              class="rounded profile-img img-fluid"
+            />
           </div>
-          <div class="row text-center">
-
-            <p class=" fs-5 fw-normal ">Graduated from <em> <b>Espahan University Of Technology</b></em>. <br>Currently
-              studing master of <em> "Fields and Waves"</em> at <em><b> Sharif University Of Technology </b></em> </p>
-
-
+          <div class="col-md-7 m-auto profile-text">
+            <h1>Aryana Sasani</h1>
+            <p>
+              <em> <strong>Electerical Engineer</strong></em>
+            </p>
+            <p>باشد که راستی بر دروغ پیروز شود</p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- Sec2 : about  -->
+    </section>
 
-  <section style="background-color: #d19ffb; color: #45018f">
-    <div class="container-fluid " style="padding:100px 3rem;">
-      <div class="row">
-        
-        <h1 class="text-center p-5">About me</h1>
-      </div>
-      <div class="row text-center">
-        <div class="row text-center">
-        <p class="fw-normal fs-4">
-          Im Aryana i Sasani , an Ir Electerical Engineer who Loves Iranshahr .
-          <br>My race is <em><b>ir(ایر) or Arya</b></em> ,same as : <br> <em><b>The Gayumart i Pishdady</b></em>  The first King of the world <br>
-          <b><em>AFreidun and Kave</em></b>  Saviours Of Iran from 'Hand Of Dahak' i Tazi <br>
-          <b><em>Kurosh The Great</em></b> the Shah Of Hakhamaneshian <br>
-          <b><em>Shahpur & Seccond Shahpur</em></b> Who Defeated 3 Emperors of Rom ! and who  Defeated All the  Savage Tazis in his 15s <br>
-          <b><em>The Great Asho Zartosht</em></b> the Great man who bring the holy religion of Zartoshti to Iran from Ahura Mazda <br>
-          <br>and other Great Heros of Iran like : Rostam, Arash i Kamangir ,Piroz i Nahavandi,KarenVand family (like Maziar),Radman Pur i mahak,NaderShah,RezaTheGreat,... 
-          <br>
-          and like all the native familys of Iranshahr from Tapurs to  kords , Lors , Tajiks , baluches. </p>
+    <section id="about">
+      <div class="container">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">About me</h3>
+            <p class="card-text">
+              I have graduated with a BS of Electrical Engineering from
+              <a href="https://www.iut.ac.ir" class="link-dark"
+                >Espahan University of Technology </a
+              >, and I am currently studying for a Master of Science in Fields
+              and Waves at
+              <a class="link-dark" href="https://www.sharif.ir/"
+                >Sharif University of Technology</a
+              >.
+            </p>
           </div>
-          <div class="row   " >
-            <div class="col-md" >
-              <h3 class="">Languages :</h3>
-              <ul class="list-group   " style="width:fit-content ; margin: auto; ">
-                <li class="list-group-item ">Parsi پارسی(native)</li>
-                <li class="list-group-item">Kordiکردی (native)</li>
-                <li class="list-group-item">Tapuri 𐬙𐬞𐬥𐬭𐬍 (native)</li>
-                <li class="list-group-item">Parsig 𐬞𐬀𐬭𐬯𐬍𐬍 (~native)</li>
-                <li class="list-group-item">English (good) </li>
-                <li class="list-group-item">Japanese 日本語 (n4)</li>
+        </div>
+      </div>
+      <hr />
+      <section id="homeland">
+        <div class="container">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">My HomeLand</h3>
+              <p class="card-text">
+                Im Aryana i Sasani , an Ir who
+                <strong>Loves Iranshahr</strong> . <br />My race is
+                <em><strong>ir(ایر) or Arya</strong></em> ,same as :
+              </p>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <em><strong>The Gayumart i Pishdady</strong></em> The first
+                  King of the world <br />
+                </li>
+                <li class="list-group-item">
+                  <strong><em>AFreidun and Kave</em></strong> Saviours Of Iran
+                  from 'Hand Of Dahak' i Tazi <br />
+                </li>
+                <li class="list-group-item">
+                  <strong><em>Kurosh The Great</em></strong> the Shah Of
+                  Hakhamaneshian
+                </li>
+                <li class="list-group-item">
+                  <strong><em>Shahpur &amp; Seccond Shahpur</em></strong> Who
+                  Defeated 3 Emperors of Rom ! and who Defeated All the Savage
+                  Tazis in his 15s
+                </li>
+                <li class="list-group-item">
+                  <strong><em>The Great Asho Zartosht</em></strong> the Great
+                  man who bring the holy religion of Zartoshti to Iran from
+                  Ahura Mazda
+                </li>
               </ul>
-            </div>
-          
-            <div class="col-md">
-              <h3 class="">fav.Books :</h3>
-              <ul class="list-group    " style="width: fit-content;margin: auto;">
-                <li class="list-group-item">Name i Bastan</li>
-                <li class="list-group-item">Gatha</li>
-                <li class="list-group-item">Milford:ELectroMagnetics</li>
-                <li class="list-group-item">?:Electronics</li>
-                <li class="list-group-item">?:Comunicatoin Circuits </li>
-          
-              </ul>
+              <p class="card-text">
+                and other Great Heros of Iran like : Rostam, Arash i Kamangir
+                ,Piroz i Nahavandi,KarenVand family (like Maziar),Radman Pur i
+                mahak,NaderShah,RezaTheGreat,...
+                <br />
+                and like all the native familys of Iranshahr from Tapurs to
+                kords , Lors , Tajiks , baluches.
+              </p>
             </div>
           </div>
-          
+        </div>
+      </section>
+      <hr />
+      <!-- education -->
+      <section id="education">
+        <div class="container">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Education</h3>
+
+              <table class="table">
+                <th>Date</th>
+                <th>Major & Uni</th>
+                <th>Thesis Title</th>
+                <tr>
+                  <td>2578~2582</td>
+                  <td>BSc in Electerical Engineerin from Espahan.U.T</td>
+                  <td>Study and Simulatiom of an practical PLL</td>
+                </tr>
+                <tr>
+                  <td>2583~2585</td>
+                  <td>MSc in Fields and Waves Sharif.U.T</td>
+                  <td></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- -----------------------------SKILS---------------------------------------- -->
+      <hr />
+
+      <div class="container">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Skills</h3>
+            <table class="table">
+              <tr>
+                <td>Cpp & C</td>
+                <td>👑👑👑👑</td>
+              </tr>
+              <tr>
+                <td>C#</td>
+                <td>👑👑👑</td>
+              </tr>
+              <tr>
+                <td>Python</td>
+                <td>👑👑👑</td>
+              </tr>
+              <tr>
+                <td>Matlab</td>
+                <td>👑👑👑</td>
+              </tr>
+              <tr>
+                <td>AVR & ARM</td>
+                <td>👑👑</td>
+              </tr>
+              <tr>
+                <td>ORCAD & ADS</td>
+                <td>👑👑</td>
+              </tr>
+              <tr>
+                <td>CST</td>
+                <td>👑</td>
+              </tr>
+              <tr>
+                <td>Unity 2D</td>
+                <td>👑</td>
+              </tr>
+            </table>
+          </div>
+        </div>
       </div>
-      
+
+      <h3></h3>
+
+      <!-- Languages ======================================================= -->
+      <hr />
+
+      <div class="container">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Languages</h3>
+            <table class="table">
+              <tr>
+                <td>Parsi پارسی</td>
+                <td>Native</td>
+              </tr>
+              <tr>
+                <td>Kordi کردی</td>
+                <td>Native</td>
+              </tr>
+              <tr>
+                <td>Tapuri 𐬙𐬞𐬥𐬭𐬍</td>
+                <td>Native</td>
+              </tr>
+              <tr>
+                <td>Parsig 𐬞𐬀𐬭𐬯𐬍𐬍</td>
+                <td>Native</td>
+              </tr>
+              <tr>
+                <td>English</td>
+                <td>Good</td>
+              </tr>
+              <tr>
+                <td>Japanese 日本語</td>
+                <td>N4</td>
+              </tr>
+              <tr>
+                <td>G&R</td>
+                <td>soon</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <div class="container">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title"></h3>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div> -->
+  </body>
+
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="m-5">
+        <!-- Instagram -->
+        <a type="button" class="btn btn-dark btn-lg" href="#!" role="button"
+          ><i class="bi bi-instagram"></i
+        ></a>
+
+        <!-- Linkedin -->
+        <a type="button" class="btn btn-dark btn-lg" href="#!" role="button"
+          ><i class="bi bi-linkedin"></i
+        ></a>
+
+        <!-- Github -->
+        <a type="button" class="btn btn-dark btn-lg" href="https://github.com/AryanaBakhshandeh/" role="button"
+          ><i class="bi bi-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
     </div>
+    <!-- Grid container -->
 
-  </section>
-  <!-- end -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-</body>
-
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2583 Copyright: Aryana i Sasani
+      <!-- <a class="text-white" href="#"></a> -->
+    </div>
+    <!-- Copyright -->
+  </footer>
 </html>

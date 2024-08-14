@@ -1,0 +1,78 @@
+body{
+  font-family: "Montserrat";
+ 
+}
+h1{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+p{
+  font-size: 1.2rem;
+  
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+hr {
+  margin: 2rem auto;
+  border: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  color: rgb(255, 255, 255);
+  width: 5%;
+
+}
+
+/* nav */
+
+/* ---------heading------ */
+
+#heading{
+  background-color: #32127a;
+  text-align: center;
+    padding: 5% 10%;
+  color: #e1faff;
+ 
+}
+
+.profile-text{
+  padding: 2%;
+  color: #EEEEEE;
+}
+
+/* about */
+#about{
+  background-color: #EF5A6F;
+  
+}
+.card{
+  background-color: #FAF8F1;
+  text-align: center;
+
+}
+.list-group{
+  padding-bottom: 30px;
+}
+.table{
+  margin-top: 50px;
+
+
+}
+
+
+ .container{
+  padding-top: 100px;
+  padding-bottom: 100px;
+ }
